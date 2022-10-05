@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "resource-group-rg" {
-  name     = var.resource-group-name
-  location = var.reource-group-location
+resource "azurerm_resource_group" "rg" {
+  name     = var.resource_group_name
+  location = var.resource_group_location
 }
