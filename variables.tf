@@ -1,4 +1,4 @@
-variable "resource-group-name" {
+variable "resource_group_name" {
   type        = string
   description = "The is the resource group name"
 }
@@ -6,7 +6,7 @@ variable "location" {
   description = "Location of the network"
   default     = "uksouth"
 }
-variable "vnet-address-space" {
+variable "vnet_address_space" {
   type        = list(any)
   description = "THis is the vnet address space cidr"
   default     = []
@@ -21,16 +21,16 @@ variable "prefix" {
   description = "This is the vnet environment prefix value"
 }
 
-variable "username" {
-  description = "Username for Virtual Machines"
-  default     = "azureuser"
-}
+# variable "username" {
+#   description = "Username for Virtual Machines"
+#   default     = "azureuser"
+# }
 
-variable "password" {
-  description = "Password for Virtual Machines"
-}
+# variable "password" {
+#   description = "Password for Virtual Machines"
+# }
 
-variable "vmsize" {
-  description = "Size of the VMs"
-  default     = "Standard_DS1_v2"
-}
+# variable "vmsize" {
+#   description = "Size of the VMs"
+#   default     = "Standard_DS1_v2"
+# }

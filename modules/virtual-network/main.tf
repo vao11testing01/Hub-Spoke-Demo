@@ -1,8 +1,8 @@
 resource "azurerm_virtual_network" "vnet" {
-  name                = var.vnet-name
-  location            = var.vnet-location
-  resource_group_name = var.resource-group-name
-  address_space       = var.vnet-address-space
+  name                = var.vnet_name
+  location            = var.vnet_location
+  resource_group_name = data.azurerm_resource_group.rg.name
+  address_space       = var.vnet_address_space
 
   tags = {
     environment = var.prefix

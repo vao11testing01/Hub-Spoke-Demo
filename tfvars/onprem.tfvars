@@ -1,4 +1,4 @@
 location            = "uksouth"
-resource-group-name = "onprem-vnet-rg"
+resource_group_name = "onprem-vnet-rg"
 prefix              = "onprem"
-vnet-address-space  = ["192.168.0.0/16"]
+vnet_address_space  = ["192.168.0.0/16"]
