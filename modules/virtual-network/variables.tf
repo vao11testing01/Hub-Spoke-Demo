@@ -21,6 +21,6 @@ variable "tags" {
   default     = {}
 }
 variable "prefix" {
-  type       = string
-  decription = "This is the vnet environment prefix value"
+  type        = string
+  description = "This is the vnet environment prefix value"
 }
